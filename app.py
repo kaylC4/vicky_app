@@ -140,9 +140,9 @@ if st.session_state['option']['voice'] and st.session_state['option']['system']:
     st.audio(audio, format='audio/mp3')
 
     # Save
-    audioName = os.path.join(savePath,'voice_'+prompt+'.mp3')
-    audioSeg  = AudioSegment.from_file(io.BytesIO(audio))
-    audioSeg.export(audioName, format="mp3")
+    #audioName = os.path.join(savePath,'voice_'+prompt+'.mp3')
+    #audioSeg  = AudioSegment.from_file(io.BytesIO(audio))
+    #audioSeg.export(audioName, format="mp3")
 
 
 
